@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+    <link rel="stylesheet" href="../css/output.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="font-['Roboto_Condensed',sans-serif] h-full">
+    <header class="bg-[#0D0D0D] pt-4 pb-4 sm:pt-3 sm:pb-3 pl-5 pr-5" >
+      <div
+        class="flex items-center justify-between relative 2xl:max-w-[1320px] 2xl:ml-auto 2xl:mr-auto"
+      >
+        <!-- Logo -->
+
+        <a class="lg:ml-[110px]" href="../home.html">
+          <img src="../images/logo.svg" alt="logo" />
+        </a>
+
+        <span class="lg:ml-30 hidden lg:block w-0.5 bg-white h-20 absolute left-[196px] opacity-40"></span>
+
+        <nav
+          class="text-white absolute left-[260px] justify-end text-[16px] hidden lg:flex gap-[30px]"
+        >
+          <a class="lg:ml-[130px]" href="../home.html">Home</a>
+          <a href="../pages/about-us.html">About us</a>
+          <a href="../pages/sermon.html">Sermon</a>
+          <a href="../pages/blog.html">Blog</a>
+        </nav>
+
+        <a
+          href="../pages/contact.html"
+          class="hidden sm:flex items-center justify-center text-[18px] text-blck border-[#FFD2A4] w-[180px] h-14 bg-[#FFD2A4] border rounded-xl"
+        >
+          Contact us
+        </a>
+
+        <!-- burger-menu -->
+        <label
+          for="bars"
+          class="absolute right-0 top-0 peer-checked:[&~.burger-menu]:translate-x-0 sm:relative lg:hidden"
+        >
+          <img src="../images/bars.png" alt="bars" />
+        </label>
+        <input class="peer" type="checkbox" id="bars" hidden />
+        <label for="bars" class="peer-checked:block fixed inset-0 hidden"></label>
+        <div
+          class="burger-menu fixed top-0 left-0 w-[300px] peer-checked:shadow-2xl peer-checked:shadow-black peer-checked:translate-x-0 -translate-x-full h-screen bg-white flex flex-col gap-[30px] p-5 rounded-r-xl"
+        >
+          <nav class="flex flex-col gap-2.5">
+            <a
+              href="../pages/home.html"
+              class="text-[20px] text-black font-bold active:border-b-red-500"
+              >Home</a
+            >
+            <a
+              href="../pages/about-us.html"
+              class="text-[20px] text-black font-bold active:border-b-red-500"
+              >About us</a
+            >
+            <a
+              href="../pages/sermon.html"
+              class="text-[20px] text-black font-bold active:border-b-red-500"
+              >Sermon</a
+            >
+            <a
+              href="../pages/blog.html"
+              class="text-[20px] text-black font-bold active:border-b-red-500"
+              >Blog</a
+            >
+          </nav>
+
+          <a
+            href="../pages/contact.html"
+            class="text-[18px] text-black border-[#FFD2A4] pt-5 pb-5 pl-12 pr-12 bg-[#FFD2A4] border-2 rounded-xl"
+          >
+            Contact us
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main class="grow bg-[#E5E5E5]">
+      <!-- Blog  -->
+
+        <section class="pt-[128px] flex justify-center items-center">
+            <div class="text-center p-5 max-w-[1300px]  2xl:max-w-[1320px] 2xl:mr-auto">
+            <p class="text-[16px] mb-4 text-[#161722] font-light">OUR BLOG</p>
+            <h2
+              class="text-[#161722] font-bold text-[32px] mb-16 uppercase md:text-[38px] lg:text-[48px]"
+            >
+              MOST RECENT POST
+            </h2>
+          </div>
+        </section>
+
+      <section class="flex justify-center items-center" >
+        <div class="p-5 bg-white max-w-[1300px]  2xl:max-w-[1320px] 2xl:ml-auto 2xl:mr-auto">
+
+          <div class="flex flex-col lg:flex-row lg:items-center gap-10 lg:mt-[56px] lg:mb-[56px] lg:ml-[56px] lg:mr-[85px]">
+            <!-- Image -->
+            <img src="../images/blog-img.png" alt="blog-img" class="w-full lg:w-1/2 object-cover" />
+
+            <!-- Text content -->
+            <div class="w-full lg:w-1/2">
+              <div class="flex justify-between mb-3">
+                <span class="text-[16px] font-medium text-[#161722]">Tuesday 13 May, 2022</span>
+                <span class="text-[16px] font-medium text-[#161722]">By John Hunau Deo</span>
+              </div>
+
+              <h3 class="text-[#161722] lg:text-[32px] text-[28px] mb-4 font-bold">
+                Church was doing what he often did when dropped An oracle
+              </h3>
+
+              <p class="text-[#161722] mb-8 text-[16px] font-light">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </p>
+
+              <a
+                href="../pages/blog-post.html"
+                class="pt-6 pb-6 pl-16 pr-16 bg-[#FFD2A4] text-[16px] rounded-xl border border-transparent hover:border-[#FFD2A4] hover:bg-transparent inline-block"
+              >
+                Read more
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Blog post -->
+
+      <section class="pb-32">
+        <div class="p-5 2xl:max-w-[1320px] 2xl:ml-auto 2xl:mr-auto">
+          <div class="text-center flex flex-col items-center">
+            <h2 class="text-[#161722] text-[32px] mb-16 font-bold lg:pt-[188px]">ALL BLOG POSTS</h2>
+          </div>
+          <ul
+            class="lg:ml-[100px] flex flex-col gap-6 p-5 justify-center items-center lg:flex-row lg:items-start md:flex-row xl:p-0 md:justify-start md:flex-wrap"
+          >
+            <li
+              class="max-w-[300px] min-h-[364px] border-b-16 border-transparent cursor-pointer rounded-t-xl hover:border-[#FFD0A0] flex flex-col justify-start p-5 w-full bg-[#FFF5EB]"
+            >
+              <p class="text-[16px] text-[#DC9853] mb-4">Relationship</p>
+              <h3 class="text-[24px] mb-4 text-[#161722] font-bold">
+                WATCH AND LISTEN TO OUR SERMONS
+              </h3>
+              <p class="text-[#161722] text-[16px] font-medium mb-12">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
+              </p>
+              <span class="text-[16px]">
+                By Hojimurod domla <br />
+                Tuesday 13 May, 2021
+              </span>
+            </li>
+            <li
+              class="max-w-[300px] min-h-[364px] border-b-16 border-transparent cursor-pointer rounded-t-xl hover:border-[#FFD0A0] flex flex-col justify-start p-5 w-full bg-[#FFF5EB]"
+            >
+              <p class="text-[16px] text-[#DC9853] mb-4">Relationship</p>
+              <h3 class="text-[24px] mb-4 text-[#161722] font-bold">
+                FIND PEACE THROUGH DAILY PRAYER
+              </h3>
+              <p class="text-[#161722] text-[16px] font-medium mb-12">
+                Discover how small moments of reflection can bring calmness and strength in difficult times
+              </p>
+              <span class="text-[16px]">
+                By Hojimurod domla <br />
+                Tuesday 13 May, 2021
+              </span>
+            </li>
+            <li
+              class="max-w-[300px] min-h-[364px] border-b-16 border-transparent cursor-pointer rounded-t-xl hover:border-[#FFD0A0] flex flex-col justify-start p-5 w-full bg-[#FFF5EB]"
+            >
+              <p class="text-[16px] text-[#DC9853] mb-4">Relationship</p>
+              <h3 class="text-[24px] mb-4 text-[#161722] font-bold">
+                BUILDING STRONG FAMILY CONNECTIONS
+              </h3>
+              <p class="text-[#161722] text-[16px] font-medium mb-12">
+                Love and respect are the foundation of every home — learn how to strengthen them every day.
+              </p>
+              <span class="text-[16px]">
+                By Hojimurod domla <br />
+                Tuesday 13 May, 2021
+              </span>
+            </li>
+            <li
+              class="max-w-[300px] min-h-[364px] border-b-16 border-transparent cursor-pointer rounded-t-xl hover:border-[#FFD0A0] flex flex-col justify-start p-5 w-full bg-[#FFF5EB]"
+            >
+              <p class="text-[16px] text-[#DC9853] mb-4">Relationship</p>
+              <h3 class="text-[24px] mb-4 text-[#161722] font-bold">
+                HOW TO STAY POSITIVE IN HARD TIMES
+              </h3>
+              <p class="text-[#161722] text-[16px] font-medium mb-12">
+                Even in darkness, light can be found if you choose to see it. Keep your heart open to hope.
+              </p>
+              <span class="text-[16px]">
+                By Hojimurod domla <br />
+                Tuesday 13 May, 2021
+              </span>
+            </li>
+            <li
+              class="max-w-[300px] min-h-[364px] border-b-16 border-transparent cursor-pointer rounded-t-xl hover:border-[#FFD0A0] flex flex-col justify-start p-5 w-full bg-[#FFF5EB]"
+            >
+              <p class="text-[16px] text-[#DC9853] mb-4">Relationship</p>
+              <h3 class="text-[24px] mb-4 text-[#161722] font-bold">
+                SERVING OTHERS WITH JOY
+              </h3>
+              <p class="text-[#161722] text-[16px] font-medium mb-12">
+                True happiness comes from helping others — small acts of kindness can change lives.
+              </p>
+              <span class="text-[16px]">
+                By Hojimurod domla <br />
+                Tuesday 13 May, 2021
+              </span>
+            </li>
+            <li
+              class="max-w-[300px] min-h-[364px] border-b-16 border-transparent cursor-pointer rounded-t-xl hover:border-[#FFD0A0] flex flex-col justify-start p-5 w-full bg-[#FFF5EB]"
+            >
+              <p class="text-[16px] text-[#DC9853] mb-4">Relationship</p>
+              <h3 class="text-[24px] mb-4 text-[#161722] font-bold">
+                LOVE THAT LASTS FOREVER
+              </h3>
+              <p class="text-[#161722] text-[16px] font-medium mb-12">
+                A strong relationship grows when both hearts listen more and speak with kindness.
+              </p>
+              <span class="text-[16px]">
+                By Hojimurod domla <br />
+                Tuesday 13 May, 2021
+              </span>
+            </li>
+            <li
+              class="max-w-[300px] min-h-[364px] border-b-16 border-transparent cursor-pointer rounded-t-xl hover:border-[#FFD0A0] flex flex-col justify-start p-5 w-full bg-[#FFF5EB]"
+            >
+              <p class="text-[16px] text-[#DC9853] mb-4">Relationship</p>
+              <h3 class="text-[24px] mb-4 text-[#161722] font-bold">
+                TRUSTING GOD IN EVERY SEASON
+              </h3>
+              <p class="text-[#161722] text-[16px] font-medium mb-12">
+                Life has ups and downs, but faith gives us courage to walk through every challenge.
+              </p>
+              <span class="text-[16px]">
+                By Hojimurod domla <br />
+                Tuesday 13 May, 2021
+              </span>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-[#161722] w-full p-5" >
+      <div
+        class="flex flex-col items-start lg:flex-row lg:justify-between 2xl:max-w-7xl 2xl:ml-auto 2xl:mr-auto"
+      >
+        <div class="mb-5">
+          <a href="../index.html">
+            <img src="../images/footer-logo.svg" alt="footer-logo" />
+          </a>
+          <p class="text-[12px] text-white mt-5 mb-5">© Copyright Finsweet 2022</p>
+          <p class="text-[12px] text-white mb-1">(480) 555-0103</p>
+          <p class="text-[12px] text-white mb-1">4517 Washington Ave.</p>
+          <p class="text-[12px] text-white">finsweet@example.com</p>
+        </div>
+
+        <span class="w-full h-px bg-white lg:hidden"></span>
+
+        <nav class="flex flex-col mt-5 lg:flex-row lg:gap-[72px]">
+          <li class="list-none flex flex-col">
+            <p class="text-[16px] text-white mb-5">Quicklinks</p>
+            <a class="text-[15px] text-white mb-1" href="../pages/about-us.html">About us</a>
+            <a class="text-[15px] text-white mb-1" href="../pages/sermon.html">Sermon</a>
+            <a class="text-[15px] text-white mb-1" href="../pages/sermon-event.html">Events</a>
+            <a class="text-[15px] text-white mb-1 lg:mb-0" href="../pages/blog.html">blog</a>
+          </li>
+          <li class="list-none flex flex-col lg:items-start lg:justify-start">
+            <p class="text-[18px] text-white mt-5 lg:mt-0 mb-5">Connect</p>
+            <div class="flex gap-5 mb-5">
+              <a href="#" target="_blank">
+                <img src="../images/facebook.svg" alt="facebook" />
+              </a>
+              <a href="#" target="_blank">
+                <img src="../images/twitter.svg" alt="twitter" />
+              </a>
+              <a href="#" target="_blank">
+                <img src="../images/interin.png" alt="interin" />
+              </a>
+            </div>
+          </li>
+        </nav>
+
+        <span class="w-full h-px bg-white lg:hidden"></span>
+
+        <div>
+          <h2 class="text-[32px] text-white mb-8 mt-5">Subscribe to get Latest Updates and News</h2>
+          <form
+            action="https://formspree.io/f/mjkajvvy"
+            method="POST"
+            class="flex flex-col md:flex-row"
+          >
+            <input
+              type="email"
+              class="pt-5 md:rounded-tr-none md:rounded-br-none pb-5 text-[16px] text-white pl-5 pr-[156px] rounded-xl border border-white/15 mb-5"
+              name="email"
+              id="email"
+              required
+              placeholder="Yourmail@gmail.com"
+            />
+            <button
+              type="submit"
+              class="flex md:rounded-tl-none md:rounded-bl-none self-star pt-5 pb-5 h-fit pr-[68px] w-fit text-black uppercase border border-[#FFD2A4] bg-[#FFD2A4] text-[16px] rounded-xl pl-[68px]"
+            >
+              Subscribe
+            </button>
+          </form>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

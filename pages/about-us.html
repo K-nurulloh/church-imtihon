@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About us</title>
+    <link rel="stylesheet" href="../css/output.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="font-['Roboto_Condensed',sans-serif] h-full">
+    <header class="bg-[#0D0D0D] pt-4 pb-4 sm:pt-3 sm:pb-3 pl-5 pr-5">
+      <div
+        class="flex items-center justify-between relative 2xl:max-w-[1320px] 2xl:ml-auto mr-auto"
+      >
+        <!-- Logo -->
+
+        <a href="../home.html">
+          <img src="../images/logo.svg" alt="logo" />
+        </a>
+
+        <span class="hidden lg:block w-0.5 bg-white h-20 absolute left-[196px] opacity-40"></span>
+
+        <nav
+          class="text-white absolute left-[260px] justify-end text-[16px] hidden lg:flex gap-[30px]"
+        >
+          <a href="../home.html">Home</a>
+          <a href="../pages/about-us.html">About us</a>
+          <a href="../pages/sermon.html">Sermon</a>
+          <a href="../pages/blog.html">Blog</a>
+        </nav>
+
+        <a
+          href="../pages/contact.html"
+          class="hidden sm:flex items-center justify-center text-[18px] text-blck border-[#FFD2A4] w-[180px] h-14 bg-[#FFD2A4] border rounded-xl"
+        >
+          Contact us
+        </a>
+
+        <!-- burger-menu -->
+        <label
+          for="bars"
+          class="absolute right-0 top-0 peer-checked:[&~.burger-menu]:translate-x-0 sm:relative lg:hidden"
+        >
+          <img src="../images/bars.png" alt="bars" />
+        </label>
+        <input class="peer" type="checkbox" id="bars" hidden />
+        <label for="bars" class="peer-checked:block fixed inset-0 hidden"></label>
+        <div
+          class="burger-menu fixed top-0 left-0 w-[300px] peer-checked:shadow-2xl peer-checked:shadow-black peer-checked:translate-x-0 -translate-x-full h-screen bg-white flex flex-col gap-[30px] p-5 rounded-r-xl"
+        >
+          <nav class="flex flex-col gap-2.5">
+            <a
+              href="../pages/home.html"
+              class="text-[20px] text-black font-bold active:border-b-red-500"
+              >Home</a
+            >
+            <a
+              href="../pages/about.html"
+              class="text-[20px] text-black font-bold active:border-b-red-500"
+              >About us</a
+            >
+            <a
+              href="../pages/sermon.html"
+              class="text-[20px] text-black font-bold active:border-b-red-500"
+              >Sermon</a
+            >
+            <a
+              href="../pages/blog.html"
+              class="text-[20px] text-black font-bold active:border-b-red-500"
+              >Blog</a
+            >
+          </nav>
+
+          <a
+            href="../pages/contact.html"
+            class="text-[18px] text-black border-[#FFD2A4] pt-5 pb-5 pl-12 pr-12 bg-[#FFD2A4] border-2 rounded-xl"
+          >
+            Contact us
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main class="grow">
+      <!-- Hero -->
+
+      <section class="bg-[url(../images/about-us_hero-bg.svg)] bg-cover bg-no-repeat" >
+        <div class="p-5 pt-40 pb-40 2xl:max-w-[1320px] 2xl:ml-auto mr-auto">
+          <h4 class="txet-[#161722] mb-4 text-[16px] uppercase font-bold">About us</h4>
+          <h1 class="text-[38px] font-bold text-[#161722] xl:text-[48px]">
+            Serving the world around us
+          </h1>
+        </div>
+      </section>
+
+      <!-- Compassion -->
+
+      <section class="pb-32 pt-32" >
+        <div
+          class="p-5 flex flex-col items-center justify-center 2xl:max-w-[1320px] 2xl:ml-auto 2xl:mr-auto"
+        >
+          <div class="text-center relative">
+            <p class="text-[16px] mb-4 text-[#161722]">SUB-HEADLINE</p>
+            <h2 class="text-[#161722] text-[32px] uppercase mb-8">love and compassion</h2>
+            <p class="text-[#161722] text-center text-[16px] mb-[50px]">
+              At our church, we believe in showing kindness, offering hope, and supporting one
+              <br class="hidden lg:block" />
+              another through every season of life. With open hearts and open doors, we grow<br
+                class="hidden lg:block"
+              />
+              together in faith, compassion, and community.
+            </p>
+          </div>
+
+          <div
+            class="flex flex-col gap-6 max-w-[375px] mb-6 justify-center items-center lg:flex-row lg:items-center relative 2xl:flex-nowrap"
+          >
+            <img src="../images/Compassion-img_1.png" alt="Compassion" class="lg:w-[300px]" />
+            <img
+              src="../images/Compassion-img_2.png"
+              alt="Compassion"
+              class="lg:w-[400px] lg:relative lg:top-0"
+            />
+            <img src="../images/Compassion-img_3.png" alt="Compassion" class="lg:w-[300px]" />
+          </div>
+
+          <div class="flex justify-center flex-col lg:flex-row lg:items-center gap-10 lg:ml-[367px] lg:mr-[367px] lg:mt-[64px]">
+            <div class="text-start">
+              <p class="text-[#161722] text-[16px] uppercase mb-4">OUR MISSIOn & Vision</p>
+              <h2 class="text-[32px] mb-4 text-[#161722] uppercase font-bold">
+                STRIVING FOR A BETTER
+                TOMORROW
+              </h2>
+              <p class="text-[16px] text-[#161722] mb-4">
+                Nature is one of the greatest gifts given to us by God. It gives us everything we need to live — the air we breathe,  the water we drink, the food we eat, and the beauty that makes life peaceful. Trees, mountains, rivers, and animals are all parts of nature that just home Trees produce oxygen and clean the air.
+              </p>
+            </div>
+            <div class="text-start">
+              <p class="text-[#161722] text-[16px] uppercase mb-4">OUR MISSIOn & Vision</p>
+              <h2 class="text-[32px] mb-4 text-[#161722] uppercase font-bold">
+                BRINgING PEACE AND JOY <br />
+                TO THE WORLD
+              </h2>
+              <p class="text-[16px] text-[#161722] mb-4">
+                Every living being depends on nature. Trees produce oxygen and clean the air. Rivers and oceans provide us with water. The sun gives us warmth and light. Animals and plants help keep the balance of the environment. But today, people are cutting down forests, polluting the air, and wasting water. Because of this, the Earth is getting warmer, and many animals
+                 are losing their homes.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Information -->
+      <section class="mt-32 mb-32" >
+        <div class="p-5 2xl:max-w-[1320px] 2xl:ml-auto 2xl:mr-auto">
+          <div class="text-center">
+            <p class="text-[16px] text-black mb-4 uppercase">BENEFITS</p>
+            <h2 class="text-[32px] text-black font-bold mb-16 uppercase">THE benefits of joining our church</h2>
+          </div>
+          <ul class="flex flex-col gap-24">
+            <li class="flex flex-col gap-6  lg:flex-row lg:items-center lg:justify-center">
+              <div  class="max-w-[500px]">
+                <h3 class="text-[28px] uppercase mb-4 font-bold">find fulfillment and joy</h3>
+                <p class="text-[16px] text-black ">
+                 We must protect nature if we want to have a healthy and happy future. Planting trees, saving water, and keeping our environment clean are small but powerful steps we can all take. We should learn to respect nature and use its resources wisely.
+                </p>
+              </div>
+              <img src="../images/information-img_1.png" class="max-w-[500px] " alt="information_1" />
+            </li>
+            <li class="flex flex-col gap-6  lg:flex-row-reverse lg:items-center lg:justify-center">
+              <div  class="max-w-[500px]">
+                <h3 class="text-[28px] uppercase mb-4 font-bold">They learn by watching, listening, and exploring the world.</h3>
+                <p class="text-[16px] text-black ">
+                  Nature is our home. When we take care of it, it takes care of us. The beauty of a green forest, the sound of birds, and the smell of fresh rain are reminders that life is wonderful. Let’s protect nature so that future generations can also enjoy the world as we do today.
+                </p>
+              </div>
+              <img src="../images/information-img_2.png" class="max-w-[500px] " alt="information_1" />
+            </li>
+            <li class="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-center">
+              <div class="max-w-[500px]">
+                <h3 class="text-[28px] uppercase mb-4 font-bold">We should always encourage them to believe in themselves.</h3>
+                <p class="text-[16px] text-black ">
+                 Education is one of the most powerful tools in the world. It helps people grow, learn new things, and build a better future. Without education, we would not be able to understand the world around us or make the right decisions in life. It opens the doors to success and teaches us how to live with purpose and dignity.
+                </p>
+              </div>
+              <img src="../images/information-img_3.png" class="max-w-[500px] " alt="information_1" />
+            </li>
+            <li class="flex flex-col gap-6  lg:flex-row-reverse lg:items-center lg:justify-center">
+              <div class="max-w-[500px]">
+                <h3 class="text-[28px] uppercase mb-4 font-bold">Their laughter reminds us how beautiful life can be.</h3>
+                <p class="text-[16px] text-black ">
+                  Education is not only about reading books or passing exams. It also helps us develop good manners, respect for others, and the ability to think for ourselves. A person who is educated can solve problems, work with others, and make positive changes in society. Education helps us become independent and confident individuals who can face life’s challenges.
+                </p>
+              </div class="max-w-[500px]">
+              <img src="../images/information-img_4.png" class="max-w-[500px] " alt="information_1" />
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Team  -->
+       
+      <section class="pb-32">
+        <div class="p-5 2xl:max-w-[1320px] 2xl:ml-auto 2xl:mr-auto">
+              <div class="text-center">
+                <p class="mb-4 text-[16px] uppercase font-medium">church members</p>
+                <h2 class="text-[32px] font-bold mb-16 uppercase lg:text-[48px]">meet our Inspirational team</h2>
+              </div>
+              <ul class="flex flex-col items-center gap-6 xl:flex-row xl:justify-center">
+                <li class="flex flex-col max-w-[300px] items-center justify-center bg-[#F5F2F0] w-full p-[75px] pt-12 pb-12 rounded-[5px]">
+                  <img src="../images/team-img_1.png" alt="team-img_1" class="w-[152px] mb-6" />
+                  <h3 class="text-[#161722] text-[24px] font-bold mb-2">Kim Bowen</h3>
+                  <p class="text-[16px] mb-4 text-[#161722] font-light">Pastor, Church</p>
+                  <div class="flex gap-6">
+                    <a href="" target="_blank">
+                      <img src="../images/facebook.svg" alt="facebook" />
+                    </a>
+                    <a href="" target="_blank">
+                      <img src="../images/facebook.svg" alt="facebook" />
+                    </a>
+                    <a href="" target="_blank">
+                      <img src="../images/facebook.svg" alt="facebook" />
+                    </a>
+                  </div>
+                </li>
+                <li class="flex flex-col max-w-[300px] items-center justify-center bg-[#F5F2F0] w-full p-[75px] pt-12 pb-12 rounded-[5px]">
+                  <img src="../images/daniele.svg" alt="daniele" class="w-[152px] mb-6" />
+                  <h3 class="text-[#161722] text-[24px] font-bold mb-2">Emma Collins</h3>
+                  <p class="text-[16px] mb-4 text-[#161722] font-light">Pastor, Church</p>
+                  <div class="flex gap-6">
+                    <a href="" target="_blank">
+                      <img src="../images/facebook.svg" alt="facebook" />
+                    </a>
+                    <a href="" target="_blank">
+                      <img src="../images/facebook.svg" alt="facebook" />
+                    </a>
+                    <a href="" target="_blank">
+                      <img src="../images/facebook.svg" alt="facebook" />
+                    </a>
+                  </div>
+                </li>
+                <li class="flex flex-col max-w-[300px] items-center justify-center bg-[#F5F2F0] w-full p-[75px] pt-12 pb-12 rounded-[5px]">
+                  <img src="../images/naomi.svg" alt="naomi" class="w-[152px] mb-6" />
+                  <h3 class="text-[#161722] text-[24px] font-bold mb-2">Sophia Reed</h3>
+                  <p class="text-[16px] mb-4 text-[#161722] font-light">Pastor, Church</p>
+                  <div class="flex gap-6">
+                    <a href="" target="_blank">
+                      <img src="../images/facebook.svg" alt="facebook" />
+                    </a>
+                    <a href="" target="_blank">
+                      <img src="../images/facebook.svg" alt="facebook" />
+                    </a>
+                    <a href="" target="_blank">
+                      <img src="../images/facebook.svg" alt="facebook" />
+                    </a>
+                  </div>
+                </li>
+                <li class="flex flex-col max-w-[300px] items-center justify-center bg-[#F5F2F0] w-full p-[75px] pt-12 pb-12 rounded-[5px]">
+                  <img src="../images/santos.svg" alt="santos" class="w-[152px] mb-6" />
+                  <h3 class="text-[#161722] text-[24px] font-bold mb-2">Liam Turner</h3>
+                  <p class="text-[16px] mb-4 text-[#161722] font-light">Pastor, Church</p>
+                  <div class="flex gap-6">
+                    <a href="" target="_blank">
+                      <img src="../images/facebook.svg" alt="facebook" />
+                    </a>
+                    <a href="" target="_blank">
+                      <img src="../images/facebook.svg" alt="facebook" />
+                    </a>
+                    <a href="" target="_blank">
+                      <img src="../images/facebook.svg" alt="facebook" />
+                    </a>
+                  </div>
+                </li>
+              </ul>
+          </div>
+        </section>
+    </main>
+
+    <footer class="bg-[#161722] w-full p-5" >
+      <div
+        class="flex flex-col items-start lg:flex-row lg:justify-between 2xl:max-w-7xl 2xl:ml-auto 2xl:mr-auto"
+      >
+        <div class="mb-5">
+          <a href="../index.html">
+            <img src="../images/footer-logo.svg" alt="footer-logo" />
+          </a>
+          <p class="text-[12px] text-white mt-5 mb-5">© Copyright Finsweet 2022</p>
+          <p class="text-[12px] text-white mb-1">(480) 555-0103</p>
+          <p class="text-[12px] text-white mb-1">4517 Washington Ave.</p>
+          <p class="text-[12px] text-white">finsweet@example.com</p>
+        </div>
+
+        <span class="w-full h-px bg-white lg:hidden"></span>
+
+        <nav class="flex flex-col mt-5 lg:flex-row lg:gap-[72px]">
+          <li class="list-none flex flex-col">
+            <p class="text-[16px] text-white mb-5">Quicklinks</p>
+            <a class="text-[15px] text-white mb-1" href="../pages/about-us.html">About us</a>
+            <a class="text-[15px] text-white mb-1" href="../pages/sermon.html">Sermon</a>
+            <a class="text-[15px] text-white mb-1" href="../pages/sermon-event.html">Events</a>
+            <a class="text-[15px] text-white mb-1 lg:mb-0" href="../pages/blog.html">blog</a>
+          </li>
+          <li class="list-none flex flex-col lg:items-start lg:justify-start">
+            <p class="text-[18px] text-white mt-5 lg:mt-0 mb-5">Connect</p>
+            <div class="flex gap-5 mb-5">
+              <a href="#" target="_blank">
+                <img src="../images/facebook.svg" alt="facebook" />
+              </a>
+              <a href="#" target="_blank">
+                <img src="../images/twitter.svg" alt="twitter" />
+              </a>
+              <a href="#" target="_blank">
+                <img src="../images/interin.png" alt="interin" />
+              </a>
+            </div>
+          </li>
+        </nav>
+
+        <span class="w-full h-px bg-white lg:hidden"></span>
+
+        <div>
+          <h2 class="text-[32px] text-white mb-8 mt-5">Subscribe to get Latest Updates and News</h2>
+          <form
+            action="https://formspree.io/f/mjkajvvy"
+            method="POST"
+            class="flex flex-col md:flex-row"
+          >
+            <input
+              type="email"
+              class="pt-5 md:rounded-tr-none md:rounded-br-none pb-5 text-[16px] text-white pl-5 pr-[156px] rounded-xl border border-white/15 mb-5"
+              name="email"
+              id="email"
+              required
+              placeholder="Yourmail@gmail.com"
+            />
+            <button
+              type="submit"
+              class="flex md:rounded-tl-none md:rounded-bl-none self-star pt-5 pb-5 h-fit pr-[68px] w-fit text-black uppercase border border-[#FFD2A4] bg-[#FFD2A4] text-[16px] rounded-xl pl-[68px]"
+            >
+              Subscribe
+            </button>
+          </form>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
